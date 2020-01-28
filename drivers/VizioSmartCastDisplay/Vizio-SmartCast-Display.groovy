@@ -20,7 +20,7 @@
  * 
  */
 metadata {
-    definition (name: "Vizio SmartCast Display", namespace: "DixieChckn", author: "Mike Cerwin") {
+    definition (name: "Vizio SmartCast Display", namespace: "DixieChckn", author: "Mike Cerwin", importUrl: "https://raw.githubusercontent.com/DixieChckn/Hubitat/master/drivers/VizioSmartCastDisplay/Vizio-SmartCast-Display.groovy") {
         
         capability "Actuator"
         capability "TV"
