@@ -41,7 +41,7 @@ metadata {
 preferences {
     section("Settings") {
         input(name: "deviceIp", type: "string", title:"SmartCast IP Address", description: "", defaultValue: "172.17.17.81", required: true)
-		input(name: "devicePort", type: "string", title:"SmartCast Port", description: "", defaultValue: "7345", required: true)
+	input(name: "devicePort", type: "string", title:"SmartCast Port", description: "", defaultValue: "7345", required: true)
         input(name: "pairingId", type: "int", title:"Pairing ID", description: "Hub ID for Pairing", defaultValue: "123456789", required: true)
         input(name: "pairingName", type: "string", title:"Pairing Name", description: "Hub Name for Pairing", defaultValue: "Hubitat", required: true)
         input(name: "logEnable", type: "bool", title: "Enable debug logging", defaultValue: true)
