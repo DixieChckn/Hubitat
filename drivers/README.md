@@ -25,7 +25,7 @@ This driver uses elements from the SmartCast API documentation compiled by githu
 
 1.  HE Platform Version 2.1.8 or later as it utilizes the "ignoreSSLIssues" functionality introduced in that release.
 2.  Your physical device must have a Static IP or DHCP reservation.  This implementation does not include any device discovery functionality.  
-3.  Your HE Hub must be able to communicate with with your display on port 7345 or 9000 depending on the firmware of the display.  If either the hub your display are in an isolated network or vlan you must configre your network appropriately to allow this communication.
+3.  Your HE Hub must be able to communicate with with your display on port 7345 or 9000 depending on the firmware of the display.  If either the hub or your display are in an isolated network or vlan you must configure your network appropriately to allow this communication.
 4.  In order to control the on/off state of the display, the display must be in "Quick Start" mode.  If the display is set to "Eco Mode" the listening port is disabled when the display is off.  
 . 
 
